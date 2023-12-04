@@ -9,6 +9,7 @@ function App() {
       Rick & Morty <span className="text-primary">Wiki</span>
       </h1>
     </div>
+    
   );
 }
 

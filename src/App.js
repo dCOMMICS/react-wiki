@@ -1,3 +1,5 @@
+import React, { useState,useEffect } from 'react';
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap";
 import Filter from "./components/Filter/Filter";
@@ -6,9 +8,9 @@ import Card from "./components/cards/Card";
 
 function App() {
 
-  let pageNumber = 1;
+  let [pageNumber, setpageNumber] = useState (1);
 
-  let api = "https://rickandmortyapi.com/api/character/character?page=2";
+  let api = `https://rickandmortyapi.com/api/character/?page=$ {}`;
   return (
     <div className="App">
       <h1 className="text-center ubuntu my-4"> 

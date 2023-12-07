@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap";
 import Filter from "./components/Filter/Filter";
+import Card from "./components/cards/Card";
 
 
 function App() {
@@ -19,9 +20,12 @@ function App() {
 
         <div className = "col-8">
           <div className = "row">
+            <Card/>
+            <Card/>
+            <Card/>
+            {/* <div className = "col-4">Cards</div>
             <div className = "col-4">Cards</div>
-            <div className = "col-4">Cards</div>
-            <div className = "col-4">Cards</div>
+            <div className = "col-4">Cards</div> */}
           </div>
         </div>
       </div>

@@ -15,7 +15,7 @@ function App() {
   useEffect(()=>{
               function abc(){}
 
-              let abc = ()=>{};
+              let abdabc = ()=>{};
   },[])
 
   return (

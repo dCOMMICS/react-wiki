@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap";
+import Filter from "./components/Filter/Filter";
 
 
 function App() {
@@ -12,7 +13,9 @@ function App() {
     <div className=" container">
       
       <div className = "row">
-        <div className = "col-3"></div>
+        <div className = "col-3">
+          <Filter/>
+        </div>
         <div className = "col-8"></div>
       </div>
     </div>

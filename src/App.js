@@ -15,8 +15,11 @@ function App() {
       <div className = "row">
         <div className = "col-3">
           <Filter/>
+        </div> 
+        
+        <div className = "col-8">
+          <div className = "row"></div>
         </div>
-        <div className = "col-8"></div>
       </div>
     </div>
     </div>

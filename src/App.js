@@ -8,7 +8,7 @@ function App() {
 
   let pageNumber = 1;
 
-  let api = "https://rickandmortyapi.com/api/character";
+  let api = "https://rickandmortyapi.com/api/character/character?page=2";
   return (
     <div className="App">
       <h1 className="text-center ubuntu my-4"> 

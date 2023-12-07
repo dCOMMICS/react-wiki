@@ -13,9 +13,11 @@ function App() {
   let api = `https://rickandmortyapi.com/api/character/?page=${pageNumber}`;
 
   useEffect(()=>{
+              function abc(){}
 
+              let abc = ()=>{};
   },[])
-  
+
   return (
     <div className="App">
       <h1 className="text-center ubuntu my-4"> 

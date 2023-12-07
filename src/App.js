@@ -8,9 +8,14 @@ import Card from "./components/cards/Card";
 
 function App() {
 
-  let [pageNumber, setpageNumber] = useState (1);
+  let [pageNumber, setPageNumber] = useState (1);
 
-  let api = `https://rickandmortyapi.com/api/character/?page=$ {}`;
+  let api = `https://rickandmortyapi.com/api/character/?page=${pageNumber}`;
+
+  useEffect(()=>{
+
+  },[])
+  
   return (
     <div className="App">
       <h1 className="text-center ubuntu my-4"> 

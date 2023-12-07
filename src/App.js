@@ -5,6 +5,10 @@ import Card from "./components/cards/Card";
 
 
 function App() {
+
+  let pageNumber = 1;
+
+  let api = "https://rickandmortyapi.com/api/character";
   return (
     <div className="App">
       <h1 className="text-center ubuntu my-4"> 

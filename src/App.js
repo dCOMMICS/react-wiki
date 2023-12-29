@@ -17,6 +17,8 @@ function App() {
 
               abc()
 
+              (function(){)
+
 
               let abdabc = ()=>{};
   },[])

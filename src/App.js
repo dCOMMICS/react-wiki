@@ -15,6 +15,8 @@ function App() {
   useEffect(()=>{
               function abc(){}
 
+              abc()
+
 
               let abdabc = ()=>{};
   },[])

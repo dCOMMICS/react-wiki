@@ -13,15 +13,13 @@ function App() {
   let api = `https://rickandmortyapi.com/api/character/?page=${pageNumber}`;
 
   useEffect(()=>{
-              function abc(){}
+              
 
-              abc()
-
-              (function(){)
+              (function(){}) ()
 
 
-              let abdabc = ()=>{};
-  },[])
+              // let abdabc = ()=>{};
+  },[api])
 
   return (
     <div className="App">

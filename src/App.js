@@ -15,7 +15,11 @@ function App() {
   useEffect(()=>{
               
 
-              (function(){}) ()
+              (async function(){
+                let data = await fetch(api).then(res=>res.json());
+                console.log(data);
+
+              }) ()
 
 
               // let abdabc = ()=>{};
